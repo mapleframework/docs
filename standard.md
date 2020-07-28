@@ -20,4 +20,4 @@
 
 ## editorconfig
 
-* 每个项目都需要有`editorconfig`文件
+* 每个项目都需要有`editorconfig`文件（参考：[dotnet/runtime](https://github.com/dotnet/runtime/blob/master/.editorconfig)）
