@@ -5,3 +5,5 @@
 ## [参考](./reference.md)
 
 ## [模块](./modules/index.md)
+
+## [脚本](./scripts/index.md)
