@@ -6,6 +6,8 @@
 
 > 前提条件：github actions workflows, shell
 
+> 可参考：[mapleframework/auditlog](https://github.com/mapleframework/auditlog)
+
 ### shell
 
 * pack 打包
