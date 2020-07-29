@@ -32,7 +32,7 @@ key=$1
 for pack in $(ls $nupkgs)
 do
     # 发布
-    dotnet nuget push ./nupkgs/$pack -k $key -s https://api.nuget.org/v3/index.json
+    dotnet nuget push ./nupkgs/$pack -k $key -s https://api.nuget.org/v3/index.json --skip-duplicate
 done
 ```
 
