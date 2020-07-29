@@ -1,4 +1,7 @@
-# 脚本（实际中，请自行将注释删除，本文档开源协议为MIT，即：出任何问题，自行负责）
+# 脚本
+
+> ps: 实际中，请自行将注释删除
+> pss: 本文档开源协议为MIT，即：出任何问题，自行负责
 
 ## 快速发布nuget
 
@@ -9,11 +12,8 @@
 * pack 打包
 
 ```shell
-# 进入需要发布包的文件目录
-cd '../branch/src'
-
-# 查找目录下所有后缀 `*.csproj` 的文件，并循环
-for csproj in $(find . -type f -name *.csproj)
+# 查找 ../branch/src/ 目录下所有后缀 `*.csproj` 的文件，并循环
+for csproj in $(find '../branch/src/' -type f -name *.csproj)
 do
     # 打包，并将打包后的文件放入当前目录的nupkgs文件夹下
     dotnet pack $csproj -c Release --no-restore -o nupkgs
