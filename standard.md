@@ -21,3 +21,7 @@
 ## editorconfig
 
 * 每个项目都需要有`editorconfig`文件（参考：[dotnet/runtime](https://github.com/dotnet/runtime/blob/master/.editorconfig)）
+
+## 时区
+
+* 前后端统一使用 DatetimeOffset，前端显示再转本地时间
