@@ -72,3 +72,7 @@ jobs:
         # 执行 publish.sh 并传入变量
         run: sh publish.sh "$Key"
 ```
+
+## liunx
+
+* 删除目录下所有文件: `rm -rf {path}` （快速删除obj和bin下的文件）
